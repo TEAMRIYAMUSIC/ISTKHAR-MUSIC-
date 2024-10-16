@@ -67,8 +67,12 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),        ],
         [
-         InlineKeyboardButton(text="🫧 ᴏᴡɴᴇʀ 🫧", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="🍁 ɢʀᴏᴜᴘ 🍁", url=f"{SUPPORT_CHAT}",),
+            InlineKeyboardButton(
+                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="https://t.me/KSD_BOT_NETWORK",
+            ),
+            InlineKeyboardButton(
+                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/Team_riya_support",
+            )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -83,9 +87,13 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [
-         InlineKeyboardButton(text="🫧 ᴏᴡɴᴇʀ 🫧", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="🍁 ɢʀᴏᴜᴘ 🍁", url=f"{SUPPORT_CHAT}",),
+  [
+            InlineKeyboardButton(
+                text="✰ 𝖡ᴧ፝֠֩ʙꭎ ✰", url="https://t.me/KSD_BOT_NETWORK",
+            ),
+            InlineKeyboardButton(
+                text="✰ 𝛅ᴏ፝֠֩𝛈ᴧ ✰", url="https://t.me/Team_riya_support",
+            )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
